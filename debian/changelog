@@ -1,5 +1,17 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-leonelquinteros-gotext (1.5.0-3) unstable; urgency=medium
 
-  * Initial release
+  * Fix dependency: golang-x-text-dev -> golang-golang-x-text-dev
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Stephen Gelman <ssgelm@debian.org>  Sun, 24 Apr 2022 18:23:08 -0500
+
+golang-github-leonelquinteros-gotext (1.5.0-2) unstable; urgency=medium
+
+  * Reupload as source-only
+
+ -- Stephen Gelman <ssgelm@debian.org>  Sun, 24 Apr 2022 18:17:31 -0500
+
+golang-github-leonelquinteros-gotext (1.5.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1009715)
+
+ -- Stephen Gelman <ssgelm@debian.org>  Fri, 15 Apr 2022 00:59:52 -0500

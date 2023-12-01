@@ -1,4 +1,7 @@
 #!/usr/bin/make -f
 
+export DH_GOLANG_INSTALL_EXTRA := fixtures
+export DH_GOLANG_EXCLUDES := cli
+
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
